@@ -1,0 +1,616 @@
+.Skill-Body {
+  background: radial-gradient(circle at 30% 30%, #1a1a40, transparent),
+              radial-gradient(circle at 70% 60%, #0f3460, transparent),
+              #050816;
+  color: white;
+  height: 160vh;
+  padding-top: 30px;
+}
+
+.Skill-bar {
+  width: 90%;
+  margin: 20px auto;
+  height: 60px;              
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  gap: 12px;               
+}
+
+
+.logo {
+  width: 45px;              
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1e2a78, #24308f);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;          
+}
+
+.name {
+  margin: 0;
+  color: white;
+  font-size: 24px;         
+  font-weight: 600;
+}
+
+.pages{
+      display: flex;
+    align-items: center;
+    margin-left: 57%;
+    font-size: 17px;
+    gap: 27px;
+}
+.text{
+  color: white;
+  text-decoration: none;
+}
+.text:hover{
+  text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+.Skill{
+      color: white;
+    background: rgba(255, 255, 255, 0.15);
+       width: 60px;
+    padding-left: 12px;
+    height: 31px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Skill:hover{
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 50px;
+}
+
+.Frontend-Skill-Box{
+    background: rgb(36, 33, 77);
+    box-shadow: 0 0 20px rgba(91, 43, 136, 0.5);
+    width: 65%;
+    height: 70vh;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.Skill-1{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-1{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.Skill-logo{
+  background: rgba(255, 255, 255, 0.15);
+    width: 66px;
+    border-radius: 13px;
+    height: 66px;
+    margin-left: 42px;
+    position: absolute;
+    margin-top: 20px;
+}
+.Skill-text-1{
+      margin-left: 32%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.Skill-1:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+
+
+.Skill-2{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-2{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-2{
+      margin-left: 35%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+
+.Skill-2:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+
+.Skill-3{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-3{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-3{
+      margin-left: 28%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+
+.Skill-3:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+
+
+.Skill-4{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-4{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-4{
+      margin-left: 32%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+
+.Skill-4:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+
+.Skill-5{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-5{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-5{
+      margin-left: 26%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+
+.Skill-5:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.Skill-flex-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    
+}
+
+.Frontend-skill{
+    font-family: ui-rounded;
+    margin-left: 42%;
+    padding-top: 27px;
+    text-shadow: 0 0 9px rgba(253, 253, 253, 0.5);
+    color: #a2aae1;
+}
+
+.Skill-6{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-6{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-6{
+      margin-left: 12%;
+    margin-top: 72px;
+    font-size : 18px;
+    font-family: sans-serif;
+}
+
+
+.Skill-6:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+
+.Skill-7{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 15%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.Skill-logo-7{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.Skill-text-7{
+      margin-left: 11%;
+    margin-top: 72px;
+    font-size : 18px;
+    font-family: sans-serif;
+}
+
+
+.Skill-7:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.Skill-flex-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.Back-end-box{
+    background: rgb(36, 33, 77);
+    box-shadow: 0 0 20px rgba(91, 43, 136, 0.5);
+    width: 29%;
+    height: 70vh;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.Back-Skill-1{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 35%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 33%;
+    margin-top: 60px;
+}
+.Skill-logo-1{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.front-Skill-logo-2{
+  height: 62px;
+    padding-left: 4px;
+    padding-top: 6px;
+    
+}
+.Skill-logo{
+  background: rgba(255, 255, 255, 0.15);
+    width: 66px;
+    border-radius: 13px;
+    height: 66px;
+    margin-left: 42px;
+    position: absolute;
+    margin-top: 20px;
+}
+.Back-Skill-text-1{
+      margin-left: 22%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.Back-Skill-1:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.skill-first{
+    display: flex;
+}
+
+.Back-end-skill{
+    font-family: ui-rounded;
+    margin-left: 26%;
+    padding-top: 27px;
+    text-shadow: 0 0 9px rgba(253, 253, 253, 0.5);
+    color: #a2aae1;
+}
+
+.Back-Skill-2{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 35%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+.Back-Skill-logo-2{
+  height: 62px;
+    padding-left: 4px;
+    padding-top: 6px;
+    
+}
+.Skill-logo{
+  background: rgba(255, 255, 255, 0.15);
+    width: 66px;
+    border-radius: 13px;
+    height: 66px;
+    margin-left: 42px;
+    position: absolute;
+    margin-top: 20px;
+}
+.Back-Skill-text-2{
+      margin-left: 29%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.Back-Skill-2:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.tools-box{
+    background: rgb(36, 33, 77);
+    box-shadow: 0 0 20px rgba(91, 43, 136, 0.5);
+    width: 96%;
+    height: 45vh;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.tools-name{
+    font-family: ui-rounded;
+    margin-left: 47%;
+    padding-top: 27px;
+    font-size: 40px;
+    text-shadow: 0 0 9px rgba(253, 253, 253, 0.5);
+    color: #a2aae1;
+}
+
+.tool-1{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 10%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.tool-logo-1{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.tool-logo{
+  background: rgba(255, 255, 255, 0.15);
+    width: 66px;
+    border-radius: 13px;
+    height: 66px;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 20px;
+}
+.tool-text-1{
+      margin-left: 18%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.tool-1:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.tool-2{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 10%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.tool-logo-2{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.tool-text-2{
+      margin-left: 19%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.tool-2:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.tool-3{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 10%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.tool-logo-3{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.tool-text-3{
+      margin-left: 7%;
+    margin-top: 72px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.tool-3:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.tool-4{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+    width: 10%;
+    height: 20vh;
+    position: relative;
+    border-radius: 15px;
+}
+.tool-logo-4{
+  height: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+
+.tool-text-4{
+      margin-left: 23%;
+    margin-top: 72px;
+    font-size : 20px;
+    font-family: sans-serif;
+}
+
+.tool-4:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.tools-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.skill-title-1{
+  font-size: 60px;
+    font-family: sans-serif;
+}
+.skill-title-2{
+  font-size: 60px;
+    font-family: sans-serif;
+    color: #717edb;
+}
+
+.skill-title-flex{
+  display: flex;
+  margin-left: 42%;
+    margin-top: 45px;
+    gap: 13px;
+    text-shadow: 0 0 6px rgb(114, 143, 190);
+}

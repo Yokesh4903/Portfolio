@@ -1,0 +1,222 @@
+.Contact-Body {
+  background: radial-gradient(circle at 30% 30%, #1a1a40, transparent),
+              radial-gradient(circle at 70% 60%, #0f3460, transparent),
+              #050816;
+  color: white;
+  height: 160vh;
+  padding-top: 30px;
+}
+
+.Contact-bar {
+  width: 90%;
+  margin: 20px auto;
+  height: 60px;              
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  gap: 12px;               
+}
+
+
+.logo {
+  width: 45px;              
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1e2a78, #24308f);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;          
+}
+
+.name {
+  margin: 0;
+  color: white;
+  font-size: 24px;         
+  font-weight: 600;
+}
+
+.pages{
+      display: flex;
+    align-items: center;
+    margin-left: 57%;
+    font-size: 17px;
+    gap: 27px;
+}
+.text{
+  color: white;
+}
+.text:hover{
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.838);
+}
+.Contact{
+      color: white;
+    background: rgba(255, 255, 255, 0.15);
+       width: 100px;
+    padding-left: 12px;
+    height: 31px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Contact:hover{
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 50px;
+}
+
+.Contact-title-1{
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.Contact-title-2{
+  font-size: 60px;
+  font-family: sans-serif;
+   color: #717edb;
+}
+
+.Contact-title-flex{
+  display: flex;
+    gap: 15px;
+      margin-left: 38.5%;
+    margin-top: 80px;
+    text-shadow: 0 0 6px rgb(114, 143, 190);
+}
+
+.Contact-line-1{
+      font-size: 18px;
+    font-weight: 400;
+    color: lightslategray;
+    margin-left: 32%;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.Contact-box{
+   background: rgb(27, 25, 60);
+    box-shadow: 0 0 20px rgba(88, 49, 127, 0.5);  
+   width: 38%;
+    height: 22vh;
+    position: relative;
+    border-radius: 25px;
+    margin-left: 31%;
+    margin-top: 60px;
+}
+.Contact-logo-1{
+  height: 35px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.Contact-logo{
+  background: rgba(255, 255, 255, 0.15);
+    width: 50px;
+    border-radius: 13px;
+    height: 50px;
+    margin-left: 45.5%;
+    position: absolute;
+    margin-top: 22px;
+}
+.mail-text-1{
+          margin-left: 47%;
+    margin-top: 62px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: lightslategray;
+}
+.mail-text-2{
+      margin-left: 32%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.Contact-box:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 25px;
+
+
+}
+
+
+h6 {
+  margin: 0;
+  line-height: 2;
+}
+
+.mail-text-3{
+          margin-left: 44%;
+    margin-top: 62px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: lightslategray;
+}
+.mail-text-4{
+      margin-left: 43.5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.mail-text-5{
+          margin-left: 46%;
+    margin-top: 62px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: lightslategray;
+}
+.mail-text-6{
+      margin-left: 38.5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.mail-text-7{
+      margin-left: 39.5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 22px;
+}
+
+.Contact-logo-2-2{
+  height: 35px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.Contact-logo-2{
+  background: rgba(255, 255, 255, 0.15);
+    width: 50px;
+    border-radius: 13px;
+    height: 50px;
+    
+}
+.Contact-logo-3-3{
+  height: 35px;
+    padding-left: 7px;
+    padding-top: 6px;
+    
+}
+.Contact-logo-3{
+  background: rgba(255, 255, 255, 0.15);
+    width: 50px;
+    border-radius: 13px;
+    height: 50px;
+   
+}
+.Contact-flex{
+  margin-left: 35%;
+    display: flex;
+    gap: 82px;
+    margin-top: 20px;
+}
