@@ -37,7 +37,7 @@ function Project() {
                                    
                               </div> 
                            <br/>
-                           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1' className='text-deco'>
+                           <a href='https://github.com/Yokesh4903/OneRec-html' className='text-deco'>
                             <h6 className='project-text-1'>HTML Project</h6>
                            <h6 className='project-text-2'>Built a front-end authentication system with signup, signin, validation, and a responsive dashboard using HTML, CSS, and JavaScript.</h6>
                     
