@@ -92,6 +92,12 @@ function Contact() {
                   
 
           </div>
+          <div className='Contact-box-last'>
+                <h6 className='mail-text-8'>Let's work together</h6>
+                   <h6 className='mail-text-9 '>I'm always open to discussing new projects, creative ideas, or opportunities</h6>
+                  <h6 className='mail-text-10'>to be part of your vision.</h6>
+ 
+          </div>
                        
 
           

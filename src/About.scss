@@ -81,6 +81,7 @@
     margin-top: 80px;
     font-size: 34px;
     text-shadow: 0 0 6px rgb(114, 143, 190);
+    animation: fade-in 2s ease-in-out;
 }
 .line-1-text-2{
     color: #717edb;
@@ -91,6 +92,7 @@
     font-weight: 400;
     margin-left: 33.5%;
     margin-top: 20px;
+    animation: fade-in 2s ease-in-out;
 }
 .About-line-3{
   width: 100%;
@@ -154,9 +156,11 @@
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(106, 169, 255, 0.5);
     margin-top: 30px;
+    animation: fade-in 2s ease-in-out;
 }
 .About-left{
   width: 50%;
+  animation: fade-in 2s ease-in-out;
 }
 .About-lines{
   display: flex;
@@ -264,6 +268,7 @@ h6{
   display: flex;
   justify-content: space-evenly;
     margin-top: 105px;
+    animation: slide-bottom-2 2s;
 }
 
 .About-lastline-box-2-text-1{
@@ -321,4 +326,13 @@ h6{
     font-weight: 400;
     color: darkgray;
     margin-left: 24%;
+}
+
+@keyframes slide-bottom-2{
+  0%{
+    margin-top: 0px;
+  }
+  100%{
+    margin-top: 105px;
+  }
 }

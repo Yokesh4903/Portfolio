@@ -82,7 +82,7 @@
     border-radius: 50px;
     margin-left: 30px;
     margin-top: 50px;
-    
+    animation: slide-top-2 2s;
 }
 
 .Skill-1{
@@ -345,6 +345,7 @@
     border-radius: 50px;
     margin-left: 30px;
     margin-top: 50px;
+    animation: slide-top-2 2s;
 }
 
 .Back-Skill-1{
@@ -358,6 +359,7 @@
     border-radius: 15px;
     margin-left: 33%;
     margin-top: 60px;
+    
 }
 .Skill-logo-1{
   height: 50px;
@@ -396,6 +398,7 @@
 
 .skill-first{
     display: flex;
+    
 }
 
 .Back-end-skill{
@@ -454,6 +457,7 @@
     border-radius: 50px;
     margin-left: 30px;
     margin-top: 50px;
+    animation: slide-top-2 2s;
 }
 
 .tools-name{
@@ -613,4 +617,14 @@
     margin-top: 45px;
     gap: 13px;
     text-shadow: 0 0 6px rgb(114, 143, 190);
+    animation: fade-in 2s ease-in-out;
+}
+
+@keyframes slide-top-2{
+  0%{
+    margin-top: 0px;
+  }
+  100%{
+    margin-top: 50px;
+  }
 }

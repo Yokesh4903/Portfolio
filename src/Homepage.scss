@@ -101,6 +101,7 @@
     font-size: 84px;
     margin-top: 55px;
     text-shadow: 0 0 6px rgb(114, 143, 190);
+    animation: fade-in 2s ease-in-out;
 }
 .Home-text-2{
   font-family: -webkit-body;
@@ -109,6 +110,7 @@
     font-size: 100px;
     color: #717edb;
     text-shadow: 0 0 6px rgb(114, 143, 190);
+    animation: fade-in 2s ease-in-out;
 }
 h1 {
   margin: 0;
@@ -122,7 +124,8 @@ h1 {
 }
 .Home-content-2{
   font-size: 23px;
-    margin-left: 47%
+    margin-left: 47%;
+    animation: fade-in 2s ease-in-out;
 }
 .Home-content-3{
   font-size:23px ;
@@ -132,6 +135,7 @@ h1 {
   align-items: center;
   gap: 8px;
   margin-top: 20px;
+  animation: fade-in 2s ease-in-out;
 }
 h2 {
   margin: 0;
@@ -149,6 +153,7 @@ h2 {
     margin-left: 35%;
     margin-top: 30px;
     width: 14%;
+    animation: slide-bottom 2s;
 }
 .btn-1:hover{
   border-radius: 50px;
@@ -175,3 +180,20 @@ h2 {
    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slide-bottom{
+  0%{
+    margin-top: 0px;
+  }
+  100%{
+    margin-top: 30px;
+  }
+}

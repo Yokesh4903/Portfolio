@@ -3,7 +3,7 @@
               radial-gradient(circle at 70% 60%, #0f3460, transparent),
               #050816;
   color: white;
-  height: 160vh;
+  height: 194vh;
   padding-top: 30px;
 }
 
@@ -89,6 +89,7 @@
       margin-left: 38.5%;
     margin-top: 80px;
     text-shadow: 0 0 6px rgb(114, 143, 190);
+    animation: fade-in 2s ease-in-out;
 }
 
 .Contact-line-1{
@@ -98,6 +99,7 @@
     margin-left: 32%;
     margin-top: 15px;
     font-family: sans-serif;
+    animation: fade-in 2s ease-in-out;
 }
 
 .Contact-box{
@@ -109,6 +111,7 @@
     border-radius: 25px;
     margin-left: 31%;
     margin-top: 60px;
+    animation: slide-top-contact 2s;
 }
 .Contact-logo-1{
   height: 35px;
@@ -219,4 +222,47 @@ h6 {
     display: flex;
     gap: 82px;
     margin-top: 20px;
+}
+
+.mail-text-8{
+      margin-left: 33%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.mail-text-9{
+              margin-left: 3%;
+    margin-top: 14px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: lightslategray;
+}
+
+.mail-text-10{
+  margin-left: 33%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: lightslategray;
+}
+
+.Contact-box-last{
+   background: rgb(45, 42, 93);
+    box-shadow: 0 0 20px rgba(88, 49, 127, 0.5);  
+   width: 38%;
+    height: 22vh;
+    position: relative;
+    border-radius: 25px;
+    margin-left: 31%;
+    margin-top: 60px;
+}
+
+@keyframes slide-top-contact{
+  0%{
+    margin-top: 0px;
+  }
+  100%{
+    margin-top: 60px;
+  }
 }
