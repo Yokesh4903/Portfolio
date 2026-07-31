@@ -3,7 +3,7 @@
               radial-gradient(circle at 70% 60%, #0f3460, transparent),
               #050816;
   color: white;
-  height: 96vh;
+  height: 100vh;
   padding-top: 30px;
 }
 
@@ -93,6 +93,20 @@
 }
 
 .project-1{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+   width: 30%;
+    height: 52vh;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 60px;
+    animation: slide-right-1 2s;
+}
+
+.project-2{
    background: radial-gradient(circle at center,
     #1f3f6b 0%,
     #132a4a 40%,
@@ -196,4 +210,21 @@
   100%{
     margin-left: 50px;
   }
+}
+
+.project-box{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.project-tag-4{
+  background-color: transparent;
+    border: 1px solid gray;
+    width: 50px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: lightgray;
+    height: 30px;
 }

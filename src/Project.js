@@ -53,6 +53,30 @@ function Project() {
 
                        </div>
                        </div>
+
+
+                       <div className='project-2'>
+                          <div>
+                              <div className='project-logo'>
+                                   
+                              </div> 
+                           <br/>
+                           <a href='https://github.com/Yokesh4903/Startup-Generator-frontend-final' className='text-deco'>
+                            <h6 className='project-text-1'>React Project Frontend</h6>
+                           <h6 className='project-text-2'>Developed a React.js-based user interface with authentication and an AI-powered dashboard.</h6>
+                    
+
+                           </a>
+                           
+                          </div>
+                             <div className='tool-tag-flex'>
+                          <h6 className='project-tag-1'>React</h6>
+                          <h6 className='project-tag-2'>CSS</h6>
+                          <h6 className='project-tag-3'>JavaScript</h6>
+                          <h6 className='project-tag-4'>Axios</h6>
+
+                       </div>
+                       </div>
                        
           
         </div>
