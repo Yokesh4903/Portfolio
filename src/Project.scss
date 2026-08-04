@@ -115,7 +115,20 @@
     height: 52vh;
     position: relative;
     border-radius: 15px;
-    margin-left: 50px;
+   
+    margin-top: 60px;
+    animation: slide-right-1 2s;
+}
+.project-3{
+   background: radial-gradient(circle at center,
+    #1f3f6b 0%,
+    #132a4a 40%,
+    #0b1220 100%);
+   width: 30%;
+    height: 52vh;
+    position: relative;
+    border-radius: 15px;
+   
     margin-top: 60px;
     animation: slide-right-1 2s;
 }
@@ -152,10 +165,41 @@
     color: gray;
     
 }
+.project-text-3{
+      margin-left: 4%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 5px;
+    color: gray;
+    
+}
 .text-deco{
   text-decoration: none;
 }
 .project-1:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+   width: 30%;
+    height: 52vh;
+  background-image: url(./Icons/icons8-git-100.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.project-2:hover{
+ box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  border-radius: 15px;
+   width: 30%;
+    height: 52vh;
+  background-image: url(./Icons/icons8-git-100.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.project-3:hover{
  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
   border-radius: 15px;
    width: 30%;
@@ -208,13 +252,13 @@
     margin-left: 0px;
   }
   100%{
-    margin-left: 50px;
+    margin-left: 15px;
   }
 }
 
 .project-box{
   display: flex;
-  gap: 20px;
+  gap: 38px;
   margin-top: 30px;
 }
 
@@ -222,6 +266,48 @@
   background-color: transparent;
     border: 1px solid gray;
     width: 50px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: lightgray;
+    height: 30px;
+}
+
+.project-tag-5{
+  background-color: transparent;
+    border: 1px solid gray;
+    width: 61px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: lightgray;
+    height: 30px;
+}
+
+.project-tag-6{
+  background-color: transparent;
+    border: 1px solid gray;
+    width: 46px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: lightgray;
+    height: 30px;
+}
+.project-tag-7{
+  background-color: transparent;
+    border: 1px solid gray;
+    width: 80px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: lightgray;
+    height: 30px;
+}
+.project-tag-8{
+  background-color: transparent;
+    border: 1px solid gray;
+    width: 64px;
     padding-left: 15px;
     border-radius: 50px;
     font-size: 14px;

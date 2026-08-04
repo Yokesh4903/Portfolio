@@ -37,8 +37,8 @@ function Project() {
                                    
                               </div> 
                            <br/>
-                           <a href='https://github.com/Yokesh4903/OneRec-html' className='text-deco'>
-                            <h6 className='project-text-1'>HTML Project</h6>
+                           <a href='https://github.com/Yokesh4903/OneRec-Final.git' className='text-deco'>
+                            <h6 className='project-text-1'>HTML Project - OneRec Design</h6>
                            <h6 className='project-text-2'>Built a front-end authentication system with signup, signin, validation, and a responsive dashboard using HTML, CSS, and JavaScript.</h6>
                     
 
@@ -62,7 +62,7 @@ function Project() {
                               </div> 
                            <br/>
                            <a href='https://github.com/Yokesh4903/Startup-Generator-frontend-final' className='text-deco'>
-                            <h6 className='project-text-1'>React Project Frontend</h6>
+                            <h6 className='project-text-1'>AI Startup Generator - Frontend</h6>
                            <h6 className='project-text-2'>Developed a React.js-based user interface with authentication and an AI-powered dashboard.</h6>
                     
 
@@ -74,6 +74,29 @@ function Project() {
                           <h6 className='project-tag-2'>CSS</h6>
                           <h6 className='project-tag-3'>JavaScript</h6>
                           <h6 className='project-tag-4'>Axios</h6>
+
+                       </div>
+                       </div>
+
+                       <div className='project-3'>
+                          <div>
+                              <div className='project-logo'>
+                                   
+                              </div> 
+                           <br/>
+                           <a href='https://github.com/Yokesh4903/Startup-Generator-Backend.git' className='text-deco'>
+                            <h6 className='project-text-1'>AI Startup Generator - Backend</h6>
+                           <h6 className='project-text-3'>Built a Flask backend with MongoDB Atlas, JWT authentication, and OpenAI API integration.</h6>
+                    
+
+                           </a>
+                           
+                          </div>
+                             <div className='tool-tag-flex'>
+                          <h6 className='project-tag-5'>Python</h6>
+                          <h6 className='project-tag-6'>Flask</h6>
+                          <h6 className='project-tag-7'>MongoDB</h6>
+                          <h6 className='project-tag-8'>OpenAI</h6>
 
                        </div>
                        </div>

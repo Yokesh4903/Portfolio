@@ -13,6 +13,9 @@ import vscode from "./Icons/icons8-vs-code-100.png"
 import git from "./Icons/icons8-git-100.png"
 import postman from "./Icons/icons8-postman-api-100.png"
 import vercel from "./Icons/icons8-trine-120-100.png"
+import ai from "./Icons/microchip.png"
+import sql from "./Icons/files.png"
+import mongo from "./Icons/database.png"
 function Skill() {
   return (
     <div className='Skill-Body'>
@@ -225,6 +228,43 @@ function Skill() {
                           </div>
        
                        </div>
+
+                       <div className='tool-5'>
+                          <div>
+                              <div className='tool-logo'>
+                                    <img src={ai} className='tool-logo-5'/>
+                              </div> 
+                           <br/>
+                           <h6 className='tool-text-5'>AI INTEGRATION</h6>
+                    
+                          </div>
+       
+                       </div>
+
+                       <div className='tool-6'>
+                          <div>
+                              <div className='tool-logo'>
+                                    <img src={mongo} className='tool-logo-6'/>
+                              </div> 
+                           <br/>
+                           <h6 className='tool-text-6'>MONGODB</h6>
+                    
+                          </div>
+       
+                       </div>
+
+                       <div className='tool-7'>
+                          <div>
+                              <div className='tool-logo'>
+                                    <img src={sql} className='tool-logo-7'/>
+                              </div> 
+                           <br/>
+                           <h6 className='tool-text-7'>MySQL</h6>
+                    
+                          </div>
+       
+                       </div>
+
                   </div>
               </div>
     </div>
