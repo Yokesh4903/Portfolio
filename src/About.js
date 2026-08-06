@@ -5,7 +5,7 @@ import design from "./Images/icons8-paint-palette-100.png"
 import idea from "./Images/icons8-idea-100.png"
 import world from "./Images/icons8-world-100.png"
 
-export default function () {
+function About() {
   return (
     <div className='About-Body'>
         <div className='About-bar'>
@@ -127,3 +127,5 @@ export default function () {
     </div>
   )
 }
+
+export default About;
