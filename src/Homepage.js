@@ -24,7 +24,7 @@ function Homepage() {
         </div> 
       
       <div className='Home-line-1'>
-        <h6 className='dot'></h6> 
+        <h6 className='dot'> </h6> 
         <h6 className='open'>Open to Oppurtunities</h6>
       </div>
 

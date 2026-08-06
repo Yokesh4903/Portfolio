@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Project.scss"
-import git from "./Icons/icons8-git-100.png"
 
 function Project() {
   return (

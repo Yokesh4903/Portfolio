@@ -68,7 +68,7 @@ export default function () {
           <div className='About-lastline-1'>
             <div>
               <div className='About-logo'>
-                    <img src={clean} className='About-logo-1'/>
+                    <img src={clean} className='About-logo-1' alt='Clean Code Logo'/>
                 </div> 
                 <br/>
                 <h6 className='About-lastline-box-1-text-1'>Clean Code</h6>
@@ -82,7 +82,7 @@ export default function () {
           <div className='About-lastline-1'>
             <div>
               <div className='About-logo'>
-                    <img src={design} className='About-logo-1'/>
+                    <img src={design} className='About-logo-1' alt='Design Focus Logo'/>
                 </div> 
                 <br/>
                 <h6 className='About-lastline-box-2-text-1'>Design Focus</h6>
@@ -96,7 +96,7 @@ export default function () {
           <div className='About-lastline-1'>
             <div>
               <div className='About-logo'>
-                    <img src={idea} className='About-logo-1'/>
+                    <img src={idea} className='About-logo-1' alt='Quick Learner Logo'/>
                 </div> 
                 <br/>
                 <h6 className='About-lastline-box-3-text-1'>Quick Learner</h6>
@@ -111,7 +111,7 @@ export default function () {
           <div className='About-lastline-1'>
             <div>
               <div className='About-logo'>
-                    <img src={world} className='About-logo-1'/>
+                    <img src={world} className='About-logo-1' alt='Full Stack Logo'/>
                 </div> 
                 <br/>
                 <h6 className='About-lastline-box-4-text-1'>Full Stack</h6>

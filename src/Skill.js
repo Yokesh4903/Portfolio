@@ -53,7 +53,7 @@ function Skill() {
                        <div className='Skill-1'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={html} className='Skill-logo-1'/>
+                                    <img src={html} className='Skill-logo-1' alt='HTML Logo'/>
                               </div> 
                            <br/>
                            <h6 className='Skill-text-1'>HTML</h6>
@@ -65,7 +65,7 @@ function Skill() {
                   <div className='Skill-2'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={css} className='Skill-logo-2'/>
+                                    <img src={css} className='Skill-logo-2' alt='CSS Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-2'>CSS</h6>
@@ -77,7 +77,7 @@ function Skill() {
                   <div className='Skill-3'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={reactlogo} className='Skill-logo-3'/>
+                                    <img src={reactlogo} className='Skill-logo-3' alt='React Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-3'>REACT</h6>
@@ -88,7 +88,7 @@ function Skill() {
                        <div className='Skill-4'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={scss} className='Skill-logo-4'/>
+                                    <img src={scss} className='Skill-logo-4' alt='SCSS Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-4'>SCSS</h6>
@@ -106,7 +106,7 @@ function Skill() {
                     <div className='Skill-5'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={redux} className='Skill-logo-5'/>
+                                    <img src={redux} className='Skill-logo-5' alt='REDUX Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-5'>REDUX</h6>
@@ -117,7 +117,7 @@ function Skill() {
                       <div className='Skill-6'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={bootstrap} className='Skill-logo-6'/>
+                                    <img src={bootstrap} className='Skill-logo-6' alt='BOOTSTRAP Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-6'>BOOTSTRAP</h6>
@@ -129,7 +129,7 @@ function Skill() {
                   <div className='Skill-7'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={javascript} className='Skill-logo-7'/>
+                                    <img src={javascript} className='Skill-logo-7' alt='JAVA SCRIPT Logo'/>
                               </div> 
                        <br/>
                            <h6 className='Skill-text-7'>JAVA SCRIPT</h6>
@@ -151,7 +151,7 @@ function Skill() {
                        <div className='Back-Skill-1'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={python} className='Skill-logo-1'/>
+                                    <img src={python} className='Skill-logo-1' alt='PYTHON Logo'/>
                               </div> 
                            <br/>
                            <h6 className='Back-Skill-text-1'>PYTHON</h6>
@@ -163,7 +163,7 @@ function Skill() {
                        <div className='Back-Skill-2'>
                           <div>
                               <div className='Skill-logo'>
-                                    <img src={flask} className='front-Skill-logo-2'/>
+                                    <img src={flask} className='front-Skill-logo-2' alt='FLASK Logo'/>
                               </div> 
                            <br/>
                            <h6 className='Back-Skill-text-2'>FLASK</h6>
@@ -184,7 +184,7 @@ function Skill() {
                     <div className='tool-1'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={vscode} className='tool-logo-1'/>
+                                    <img src={vscode} className='tool-logo-1' alt='VS CODE Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-1'>VS CODE</h6>
@@ -196,7 +196,7 @@ function Skill() {
                        <div className='tool-2'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={git} className='tool-logo-2'/>
+                                    <img src={git} className='tool-logo-2' alt='GIT HUB Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-2'>GIT HUB</h6>
@@ -208,7 +208,7 @@ function Skill() {
                        <div className='tool-3'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={postman} className='tool-logo-3'/>
+                                    <img src={postman} className='tool-logo-3' alt='POSTMAN API Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-3'>POSTMAN API</h6>
@@ -220,7 +220,7 @@ function Skill() {
                       <div className='tool-4'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={vercel} className='tool-logo-4'/>
+                                    <img src={vercel} className='tool-logo-4' alt='VERCEL Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-4'>VERCEL</h6>
@@ -232,7 +232,7 @@ function Skill() {
                        <div className='tool-5'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={ai} className='tool-logo-5'/>
+                                    <img src={ai} className='tool-logo-5' alt='AI INTEGRATION Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-5'>AI INTEGRATION</h6>
@@ -244,7 +244,7 @@ function Skill() {
                        <div className='tool-6'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={mongo} className='tool-logo-6'/>
+                                    <img src={mongo} className='tool-logo-6' alt='MONGODB Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-6'>MONGODB</h6>
@@ -256,7 +256,7 @@ function Skill() {
                        <div className='tool-7'>
                           <div>
                               <div className='tool-logo'>
-                                    <img src={sql} className='tool-logo-7'/>
+                                    <img src={sql} className='tool-logo-7' alt='MySQL Logo'/>
                               </div> 
                            <br/>
                            <h6 className='tool-text-7'>MySQL</h6>

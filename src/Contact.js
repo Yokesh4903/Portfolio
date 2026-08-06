@@ -39,7 +39,7 @@ function Contact() {
           <div className='Contact-box'>
                         
               <div className='Contact-logo'>
-                     <img src={mail} className='Contact-logo-1'/>
+                     <img src={mail} className='Contact-logo-1' alt='Mail Logo'/>
               </div> 
               <br/>
                    <h6 className='mail-text-1'>Mail</h6>
@@ -49,7 +49,7 @@ function Contact() {
           <div className='Contact-box'>
                         
               <div className='Contact-logo'>
-                     <img src={location} className='Contact-logo-1'/>
+                     <img src={location} className='Contact-logo-1' alt='Location Logo'/>
               </div> 
               <br/>
                    <h6 className='mail-text-3'>Location</h6>
@@ -60,7 +60,7 @@ function Contact() {
           <div className='Contact-box'>
                         
               <div className='Contact-logo'>
-                     <img src={phone} className='Contact-logo-1'/>
+                     <img src={phone} className='Contact-logo-1' alt='Phone Logo'/>
               </div> 
               <br/>
                    <h6 className='mail-text-5'>Phone</h6>
@@ -76,13 +76,13 @@ function Contact() {
                
                <a href='https://www.linkedin.com/in/yokesh-b-401b41283/'>
                  <div className='Contact-logo-2'>
-                     <img src={likedin} className='Contact-logo-2-2'/>
+                     <img src={likedin} className='Contact-logo-2-2' alt='LinkedIn Logo'/>
               </div> 
                </a>
                 
              <a href='https://github.com/Yokesh4903'>
                <div className='Contact-logo-3'>
-                     <img src={git} className='Contact-logo-3-3'/>
+                     <img src={git} className='Contact-logo-3-3' alt='GitHub Logo'/>
               </div> 
              </a>
               

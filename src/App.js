@@ -4,7 +4,6 @@ import Home from "./Homepage"
 import About from "./About"
 import Project from "./Project"
 import Skill from './Skill'
-import contact from "./Contact"
 import Contact from './Contact'
 
 
